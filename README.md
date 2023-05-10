@@ -12,7 +12,9 @@
 
 - Python3.6+
 - requests
-- BeautifulSoup4
+  `pip install requests`
+- BeautifulSoup
+  `pip install BeautifulSoup4`
 
 ### 使用
 
@@ -25,4 +27,6 @@
 
 3. 运行 `python main.py`
 
-如果一切正常，执行完成后会自动结束。
+如果一切正常，执行完成后会自动结束;
+
+执行目录下会生成一个 `index.html` 文件，为评价页 html 脚本，可以用于测试。
